@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://our.company.com/jobNew.schema.json",
+  "type": "object",
+  "properties": {
+    "itemName": {
+      "type": "string",
+      "maxLength": 30
+    },
+    "username": {
+      "type": "string",
+      "maxLength": 25
+    },
+    "city": {
+      "type": "string",
+      "maxLength": 20
+    },
+    "imgUrl": {
+      "type": "string",
+      "format": "uri"
+    },
+    "description": {
+      "type": "string",
+      "maxLength": 250
+    },
+    "category": {
+      "type": "string"
+    },
+    "ageGroup": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false,
+  "required": [
+    "itemName",
+    "city",
+    "category",
+    "ageGroup"
+  ]
+}
