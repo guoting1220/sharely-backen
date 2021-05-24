@@ -5,7 +5,7 @@
 const jsonschema = require("jsonschema");
 
 const express = require("express");
-const { ensureCorrectUser, ensureLoggedIn, ensureAdmin, ensureCorrectUserOrAdmin} = require("../middleware/auth");
+const { ensureCorrectUser, ensureLoggedIn, ensureAdmin, ensureCorrectUserOrAdmin } = require("../middleware/auth");
 const { BadRequestError } = require("../expressError");
 const User = require("../models/user");
 const { createToken } = require("../helpers/tokens");
@@ -128,7 +128,7 @@ router.delete("/:username", ensureCorrectUserOrAdmin, async function (req, res, 
 
 router.get("/:username/email", ensureLoggedIn, async function (req, res, next) {
   try {
-    const email = await User.getEmail(req.params.username);
+    const { email } = await User.getEmail(req.params.username);
     return res.json({ email });
   } catch (err) {
     return next(err);
