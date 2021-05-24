@@ -6,7 +6,7 @@ CREATE DATABASE sharely;
 \connect sharely
 
 \i sharely-schema.sql
-\i sharely-seed.sql
+-- \i sharely-seed.sql
 
 \echo 'Delete and recreate sharely_test db?'
 \prompt 'Return for yes or control-C to cancel > ' foo
