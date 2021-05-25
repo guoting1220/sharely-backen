@@ -1,8 +1,3 @@
-// sentInvites, receivedInvites }
-//    * where likedPosts is[post_id, ...]
-//    * sentInvites is[post_id, ...]
-//    *  is[post_id, ...]
-
 "use strict";
 
 const db = require("../db");
@@ -124,13 +119,6 @@ class Post {
     const post = postRes.rows[0];
 
     if (!post) throw new NotFoundError(`No post: ${id}`);
-
-    // const invitesFromRes = await db.query(
-    //   `SELECT username
-    //    FROM invites
-    //    WHERE post_id = $1`, [id]);
-
-    // post.invitesFrom = invitesFromRes.rows.map(i => i.username);
 
     const commentsRes = await db.query(
       `SELECT id,
