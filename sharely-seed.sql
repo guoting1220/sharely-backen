@@ -35,7 +35,7 @@ VALUES
         'https://images.unsplash.com/photo-1516731415730-0c607149933a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80', '4 of them, nearly new', 'sport', 'kid'),
 
        ('pencils', 'Lisa', 'Los altos',
-       'https://images.unsplash.com/photo-1588868478777-1500c984167c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1069&q=80', '12 colors', 'school supplies', 'kid'),   
+       'https://images.unsplash.com/photo-1588868478777-1500c984167c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1069&q=80', '12 colors', 'stationery', 'kid'),   
 
        ('Connect 4', 'Joe', 'Los Altos', 'https://www.blemishcarecosmetics.com/wp-content/uploads/2021/04/no-image-icon-0.jpg', 'fun board game for your family ', 'game', 'all ages'),
 
