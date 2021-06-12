@@ -2,6 +2,10 @@
 
 Sharely is a single page application providing a platform where the users can share their items with other people or families in the Bay Area.
 
+### tech stack 
+frontend: React.js, Redux, Bootstrap
+backend: Express, Node.js, PostgreSQL
+
 ### Installation and Setup Instructions
 
 Clone down this repository. You will need `node` and `npm` installed globally on your machine.
